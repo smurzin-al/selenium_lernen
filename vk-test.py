@@ -10,7 +10,7 @@ try:
     browser.implicitly_wait(10)
     browser.get(link)
 
-    browser.find_element_by_css_selector('#index_email').send_keys('war7@bk.ru')
+    browser.find_element_by_css_selector('#index_email').send_keys('wa1r7@bk.ru')
     browser.find_element_by_css_selector('#index_pass').send_keys('Wa013')
     browser.find_element_by_css_selector('#index_login_button').click()
 
